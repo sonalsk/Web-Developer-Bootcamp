@@ -31,9 +31,9 @@ function listTodo() {
     }
 
     // for each
-    todo.forEach(todos, i) {
+    todo.forEach(function(todos, i) {
         console.log(i + ": " + todos);
-    }
+    });
     console.log("**********")
 }
 
